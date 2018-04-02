@@ -1,4 +1,4 @@
-package williewillus.BugfixMod.mod;
+package ru.denull.BugPatch.mod;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
