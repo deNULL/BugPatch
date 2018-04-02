@@ -9,7 +9,7 @@ import net.minecraftforge.common.MinecraftForge;
 /**
  * For non-ASM bugfixes
  */
-@Mod(name = "BugfixMod", modid = "BugfixMod", version = "@VERSION@")
+@Mod(name = "BugPath", modid = "bugpatch", version = "@VERSION@")
 public class BFMProper {
     @Mod.Instance
     public static BFMProper instance;
