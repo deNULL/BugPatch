@@ -32,7 +32,7 @@ public class BugPatchClassTransformer implements IClassTransformer {
     private boolean hasInit = false;
     protected BugPatchSettings settings;
     private ArrayList<AbstractPatcher> patchers;
-    public Logger logger = LogManager.getLogger("BugfixMod");
+    public Logger logger = LogManager.getLogger("BugPatch");
 
     public BugPatchClassTransformer() {
 

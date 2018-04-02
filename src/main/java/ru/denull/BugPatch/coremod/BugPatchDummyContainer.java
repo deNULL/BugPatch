@@ -12,10 +12,10 @@ public class BugPatchDummyContainer extends DummyModContainer {
     public BugPatchDummyContainer() {
         super(new ModMetadata());
         ModMetadata myMeta = super.getMetadata();
-        myMeta.authorList = Collections.singletonList("williewillus");
-        myMeta.modId = "BugfixModCore";
+        myMeta.authorList = Collections.singletonList("deNULL");
+        myMeta.modId = "bugpatch";
         myMeta.version = "@VERSION@";
-        myMeta.name = "BugfixModCore";
+        myMeta.name = "BugPatch";
     }
 
     public boolean registerBus(EventBus bus, LoadController controller) {

@@ -23,7 +23,7 @@ public class BugPatchFMLLoadingPlugin implements IFMLLoadingPlugin, IFMLCallHook
     }
 
     public void injectData(Map<String, Object> data) {
-        BugPatchClassTransformer.instance.settingsFile = new File(((File) data.get("mcLocation")).getPath() + "/config/BugfixMod.cfg");
+        BugPatchClassTransformer.instance.settingsFile = new File(((File) data.get("mcLocation")).getPath() + "/config/BugPatch.cfg");
         BugPatchClassTransformer.instance.initialize((Boolean) data.get("runtimeDeobfuscationEnabled"));
     }
 
