@@ -13,9 +13,9 @@ public class BugPatchDummyContainer extends DummyModContainer {
         super(new ModMetadata());
         ModMetadata myMeta = super.getMetadata();
         myMeta.authorList = Collections.singletonList("deNULL");
-        myMeta.modId = "bugpatch";
+        myMeta.modId = "bugpatch-core";
         myMeta.version = "@VERSION@";
-        myMeta.name = "BugPatch";
+        myMeta.name = "BugPatchCore";
     }
 
     public boolean registerBus(EventBus bus, LoadController controller) {
