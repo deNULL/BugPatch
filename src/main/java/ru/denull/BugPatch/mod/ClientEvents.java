@@ -27,10 +27,11 @@ import org.apache.logging.log4j.Logger;
 public class ClientEvents {
 	public Logger logger = LogManager.getLogger("BugPatch");
 	
+
     @SubscribeEvent
     public void blockBreak(BlockEvent.BreakEvent evt) {
         PlayerControllerMP controller = Minecraft.getMinecraft().playerController;
-        Method m = ReflectionHelper.findMethod(PlayerControllerMP.class, controller, new String[] {"syncCurrentPlayItem", "func_78750_k", "k"});
+        Method m = ReflectionHelper.findMethod(PlayerControllerMP.class, controller, new String[] {"syncCurrentPlayItem", "func_78750_j", "k"});
         if (m != null) {
             try {
                 m.setAccessible(true);
